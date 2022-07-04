@@ -24,7 +24,7 @@ injury = [] #s_T
 #third level
 
 
-tree = ET.parse('test.xml')
+tree = ET.parse('Список карточек ДТП.xml')
 root = tree.getroot()
 for items in root:
     for tab in items:
